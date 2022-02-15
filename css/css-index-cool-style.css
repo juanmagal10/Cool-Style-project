@@ -91,7 +91,7 @@ a{
   
     
 }
-.header-container .ul li .submenu{
+.header-container .ul li .submenu-show{
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -102,15 +102,15 @@ a{
     border-radius: 3px;
     transition:all .5;
 }
-.header-container .ul li .submenu li{
+.header-container .ul li .submenu-show li{
     color:#fff; 
     font-size: 16px;
 }
-.header-container .ul li .submenu li:hover{
+.header-container .ul li .submenu-show li:hover{
     color:#000;
     background: #fff;
 }
-.header-container .ul li .submenu>hr{
+.header-container .ul li .submenu-show>hr{
     width: 80%;
     margin:auto;
 }
